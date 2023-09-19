@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.section-left {
+    width: 49%;
+    display: inline-block;
+}
+
+.section-right {
+    width: 49%;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+}
+
+img {
+    position: relative;
+    top: 217px;
+    left: 125px;
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+p {
+    width: 525px;
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 32px 146px 65px 0;
+}
+
+.button-explore {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    border: none;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button-explore:hover {
+    opacity: 0.8;
+}
+
+.button-explore:active {
+    opacity: 0.5;
+}
+
+.section-header {
+    margin: 44px 0 0 76px;
+    text-transform: uppercase;
+}
+
+a {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:active {
+    opacity: 0.5;
+}
+
+.button-login {
+    width: 130px;
+    height: 41px;
+    color: #FFFFFF;
+    background: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button-login:hover {
+    opacity: 0.8;
+}
+
+.button-login:active {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        display: none;
+    }
+
+    .section-left {
+        display: block;
+        width: 100%;
+        height: 50%;
+        position: static;
+        padding: 30px;
+        margin: 149px 22px 0 14px ;
+    }
+
+    .section-right {
+        width: 100%;
+        height: 50%;
+        position: static;
+    }
+
+    img {
+        max-width: 90%;
+        position: static;
+    }
+
+    h1 {
+        width: auto;
+        color: #515151;
+        font-size: 50px;
+        text-align: center;
+        margin: 0px 64px;
+    }
+
+    h2 {
+        color: #515151;
+        font-size: 30px;
+        margin: 8px 79px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-explore {
+        margin: 0 auto;
+        display: block;
+    }
+}
